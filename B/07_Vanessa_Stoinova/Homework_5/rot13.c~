@@ -29,6 +29,7 @@ int main () {
 		if(key == 'c' || key == 'd') {
                 	rot13();
         	printf("Enter Option: ");		
+		getchar();
                 }
                 scanf("%c", &key);
         }
